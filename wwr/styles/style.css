@@ -180,6 +180,31 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+h1 {
+    font-family: "Shadows Into Light", "Verdana", "sans-serif";
+    font-size: 40px;
+}
+.rivers-header {
+    grid-column: 2;
+}
+.salmon-river {
+    grid-column: 2/3;
+    text-align: left;
+}
+.gray-canyon {
+    grid-column: 2/3;
+    text-align: left;
+}
+.grand-canyon {
+    grid-column: 2/3;
+    text-align: left;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
