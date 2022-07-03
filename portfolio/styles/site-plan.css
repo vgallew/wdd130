@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #04213A;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Parisienne";
+  --heading-font: "Parisienne", Garamond, sans-serif;
   --paragraph-font: "Times New Roman", Garamond, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
