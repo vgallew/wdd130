@@ -106,6 +106,10 @@ header {
         justify-content: space-around;
         align-items: center;
     }
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
         .linkedin {
             width: 30px;
             height: 30px;
