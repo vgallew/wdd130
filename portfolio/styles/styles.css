@@ -15,7 +15,7 @@ header {
         background-color: #04213A;
         border-radius: 10px;
         font-family: "Parisienne", Garamond, sans-serif;
-        font-size: larger;
+        font-size: 35px;
         margin: 20px;
     }
     nav a {
@@ -29,6 +29,42 @@ header {
         color: #FDF9ED;
         border-radius: 10px;
     }
+        .dropbtn {
+            background-color: #04213A;
+            color: white;
+            padding: 30px;
+            font-size: 35px;
+            border: none;
+            border-radius: 10px;
+            font-family: "Parisienne", Garamond, sans-serif;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {background-color: #062d4f;}
+        
+        .dropdown:hover .dropdown-content {display: block;}
+        
+        .dropdown:hover .dropbtn {background-color: #062d4f;}
     .logo {
         width: 150px;
         height: 150px;
@@ -112,5 +148,4 @@ header {
     }
         .linkedin {
             width: 30px;
-            height: 30px;
-        }
+            height: 30px; }
