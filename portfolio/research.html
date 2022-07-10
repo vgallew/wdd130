@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="index.html">Home</a>
             <a href="research.html">Research</a>
-            <a href="cw.html">Creative Works</a>
+            <div class="dropdown">
+                <button class="dropbtn">Creative Works 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="cw.html">Essays</a>
+                  <a href="cw.html">Poetry</a>
+                </div>
+            </div> 
             <a href="#"> Contact Us</a>
         </nav>
         <a id="logo_link" href="index.html">
@@ -22,7 +30,7 @@
     <main class="research-grid">
         <section class="balletpaper">
             <h2>The Influence of Russia on French Romantic Ballet</h2>
-            <img src="images/swanlake.webp" alt="Swan Lake">
+            <img class="swanlake" src="images/swanlake.webp" alt="Swan Lake">
             <p>
                 When a layman is asked about the origins of modern ballet, one would almost undoubtedly answer France; while this is not exactly wrong, it is not precisely right either. It is true that ballet holds much of its origins in France, it is also true that France has been the epicenter of ballet for most of history; and yet, falsehood lies in the assumption that most innovations of ballet are French in origin. For example, take Tchaikovsky’s  The Nutcracker: the story is German, the technique (leaps and turns particularly) is Italian, the carriage of the body is French, and the music is Russian. Mapping the origins and characteristics for other ballets of the Romantic era would reveal similar diversity in their origins. While it would be fascinating to explore the interrelations between all of these countries' expressions of ballet, this paper focuses on the relationship between French and Russian ballet during the Romantic era in an effort to show why Russia is important to the broader context of ballet. As the epicenter of ballet moved to Russia, two things happened: ballet developed finer technique and it moved out from beneath opera. These reforms made ballet more accessible, and also gave ballet independence to grow as its own entity. By looking at this brief period in the history of ballet, one can gain a better understanding of the continual evolution of ballet and gain a greater appreciation for the art as it stands today. Russian ballet built on the foundation of French romantic ballet: giving ballet technical development and independence, without which ballet would have faded into the obscurity of opera, rather than thriving as its own art form. This essay will discuss French romantic ballet, how those ideas shaped the artistic innovations of the Russians, and how the Russians brought those ideas back to the West.
             </p>
@@ -33,7 +41,7 @@
                 Ballet was well-loved in Paris, but it was rarely performed independently; instead, it was used primarily as an intermission between acts of an opera. These intermediate ballets were referred to as  divertissements  (Gutsche-Miller 75). They were typically short, spanning anywhere from a few minutes to just shy of an hour. Because of the shorter length of these performances, the audience might see between one and a dozen ballets during the intermission. It was likely an experience similar to seeing dance performed in competition, with each piece bearing its own story. Variations, like “The Dance of the Reed Pipes” in  The Nutcracker could also be considered a divertissement  within the larger narrative of the story, as it does not directly contribute to the plot of the ballet. Ballet was also performed in the background of the opera itself, with dancers acting much like extras in a film; they helped to provide background and atmosphere but were not vital to the performance.
                 </p>
             <p>
-                <img src="images/taglioni.jpg" alt="Marie Taglioni">
+                <img class="taglioni" src="images/taglioni.jpg" alt="Marie Taglioni">
                 Marie Taglioni is among the most important ballerinas in history. .. She was neither the greatest ballerina technically speaking, nor was she particularly good at    pantomime, which “combines dance and miming to create a narrative that can be followed by a common audience” (Gutsche-Miller 97). Taglioni’s greatest strength as a dancer was in her manner. The sense of lightness she was able to create even when the audience was aware of the difficulty of everything being done was and still is copied by ballerinas. It can be seen in the ethereal grace of the dying swan in Swan Lake and the sweet lightness of Clara in The Nutcracker as she explores the land of sweets. Taglioni is most easily recognized by her slightly rounded posture in the upper body, which creates the illusion that her body is longer than it is. In addition to establishing the expressive aesthetics of ballet, Taglioni also made  pointe a necessity for principal dancers  (Laemmli 1). Pointe refers to dancing while wearing shoes that are reinforced in the toe ( pointe shoes) allowing the dancer to rise to the tips of the toes or,  en pointe. In Taglioni’s time, these shoes were very similar to the soft shoe, made of canvas or leather, that was used in daily practice. “The sides of the shoe and the tips of the toe were darned in order to provide a modicum of support, but the essential form was unaltered” (Laemmli 8). The shoes themselves were unextraordinary, but the effect of raising the ballerina to the tips of her toes created an additional lightness that brought the fairytale characters of ballet to life for the audience.
             </p>
                 <p>
@@ -58,7 +66,7 @@
                 In addition to changes in posture and costuming, the literal shape, or spacing, of ballet changed as well. As anyone who has participated in the performing arts is well aware, one of the most technical aspects of performance is spacing, that is, positioning bodies on the stage in such a way that is both aesthetically pleasing and functional. This process can be simple on the part of the performers, but on the part of the choreographer, it is almost mathematical. In the words of Oleg Petrov and Tim Scholl, “The harmony of ballet [. . .] could not be ascribed to algebra, but to geometry” (46). This is especially seen in dances like “The Waltz of the Snowflakes” which is not particularly difficult choreographically, but geometrically it is arduous because it is formed in such a way as to remind the audience of the chaos and order of falling snow.
                 </p>
                 <p>
-                <img src="images/pointe.jpeg" alt="Pointe Shoes">
+                <img class="pointe" src="images/pointe.jpeg" alt="Pointe Shoes">
                 As ballet gained new techniques and leaned more towards the classical,  pointe work also changed. Taglioni’s darned slippers allowed her to rise for an instant onto the tips of her toes, but the structure of the shoes was not enough to allow any kind of sustained balance. As a consequence, early pointe techniques only allowed the dancer to remain on pointe for the barest moment, and extended balances, turns, and tricks all had to be performed  demi-pointe (meaning raising only to the ball of the foot). It is not exactly clear when and where  pointe shoes changed, what is clear is that “The platform, box, and shank—were in use as early as the late nineteenth century” (Laemmli 11). These additional structural elements in the shoe made sustained balancing, extended turns en pointe, and many other elements possible. It was also as a result of these changes that pointe became common for all female members of a dance company. It was also about this time that the shoes were manufactured by cobblers instead of being made by each individual dancer.
                 </p>
             <p>
@@ -79,29 +87,41 @@
             <h5>Bibliography</h5>
             <p>
                 Ayvazoğlu, Seda. AN ARTISTIC REVOLUTION PHENOMENON: DIAGHILEV’S BALLET RUSSES. Çukurova University, May 2016, https://dergipark.org.tr/en/download/article-file/780572.
-                <br>
+            </p>
+            <p>
                 Borodin, George. This Thing Called Ballet. MacDonald, 1945. EBSCOhost, search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=cat03146a&AN=BYUID.110976&site=eds-live&scope=site.
-                <br>
+            </p>
+            <p>
                 Guest, Ivor. The Romantic Ballet in Paris. [3rd ed.]., Dance Books, 2008. EBSCOhost, search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=cat03146a&AN=BYUID.4917173&site=eds-live&scope=site.
-                <br>
+            </p>
+            <p>
                 Guest, Ivor and Kant, Marion. "ballet". Encyclopedia Britannica, 13 Nov. 2020, https://www.britannica.com/art/ballet. Accessed 19 November 2021. 
-                <br>
+            </p>
+            <p>
                 Gutsche-Miller, Sarah. Parisian Music-Hall Ballet, 1871-1913. University of Rochester Press, 2015. EBSCOhost,
-                <br>
+            </p>
+            <p>
                 Laemmli, Whitney E. “A Case in Pointe: Romance and Regimentation at the New York City Ballet.” Technology and Culture, vol. 56, no. 1, [The Johns Hopkins University Press, Society for the History of Technology], 2015, pp. 1–27, http://www.jstor.org/stable/24468692.
-                <br>
+            </p>
+            <p>
                 Levitt, Marcus. "7. “The First Russian Ballet”: Sumarokov’s “Sanctuary of Virtue” (1759) Defining a New Dance". Early Modern Russian Letters: Texts and Contexts, Boston, USA: Academic Studies Press, 2017, pp. 119-157. https://doi.org/10.1515/9781618116741-009
-                <br>
+            </p>
+            <p>
                 O’Brien, Caroline. Between the Seams: The Making of a Princess. York University, 2009, https://www.bac-lac.gc.ca/eng/services/theses/Pages/item.aspx?idNumber=728823913.
-                <br>
+            </p>
+            <p>
                 Petrov, Oleg, and Tim Scholl. “Russian Ballet and Its Place in Russian Artistic Culture of the Second Half of the Nineteenth Century: The Age of Petipa.” Dance Chronicle, vol. 15, no. 1, Taylor & Francis, Ltd., 1992, pp. 40–58, http://www.jstor.org/stable/1567791.
-                <br>
+            </p>
+            <p>
                 “Pushkin Ballets.” Oxford Reference, doi:10.1093/oi/authority.20110803100355642. Accessed 20 Nov. 2021.
-                <br>
+            </p>
+            <p>
                 Royal Opera House. Sarah Lamb on Dancing Onegin (The Royal Ballet). 2015, https://www.youtube.com/watch?v=kgS1isyR9pE.
-                <br>
+            </p>
+            <p>
                 Sasportes, Jose. “Grand Opera and the Decline of Ballet in the Later Nineteenth Century: A Discursive Essay.” Dance Research: The Journal of the Society for Dance Research, vol. 33, no. 2, Edinburgh University Press, 2015, pp. 258–68, http://www.jstor.org/stable/26357867.
-                <br>
+            </p>
+            <p>
                 Slonimskiĭ, IU. The Soviet Ballet. Philosophical Library, 1947. EBSCOhost, search.ebscohost.com/login.aspx?direct=true&AuthType=ip&db=cat03146a&AN=BYUID.376081&site=eds-live&scope=site.
             </p>
         </section>
@@ -112,7 +132,7 @@
         <h4>208.750.8636</h4>
         <h4><a href="site-plan.html">Site Plan</a></h4>
         <a href="https://www.linkedin.com/in/virginia-gallew/" target="_blank">
-            <img src="images/linkedinicon.png" alt="in icon"></a>
+            <img src="images/linkedinicon.png" alt="in icon" style="width: 30px; height: 30px;"></a>
     </footer>
 </body>
 </html>

@@ -148,4 +148,45 @@ header {
     }
         .linkedin {
             width: 30px;
-            height: 30px; }
+            height: 30px; 
+    }
+    .research-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px;
+    margin: 0px 100px -50px;
+    }
+        .balletpaper h2 {
+            font-family: "Times New Roman", Garamond, sans-serif;
+            text-align: center;
+            font-size: 25px;
+        }
+        .balletpaper {
+            font-family: "Times New Roman", Garamond, sans-serif;
+            grid-column: 2/4;
+            text-indent: 25px;
+        }
+        .swanlake {
+            width: 95%;
+            height: 500px;
+            padding: 20px;
+        }
+        .taglioni {
+            float: right;
+            width: 250px;
+            height: 325px;
+            border-radius: 100px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .pointe {
+            float: left;
+            width: 250px;
+            height: 325px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+        .balletpaper h5 {
+            text-align: center;
+            font-size: 20px;
+            font-family: "Times New Roman", Garamond, sans-serif;
+        }
