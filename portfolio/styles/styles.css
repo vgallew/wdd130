@@ -154,6 +154,7 @@ header {
     display: grid;
     grid-template-columns: 100px 1fr 1fr 100px;
     margin: 0px 100px -50px;
+    background-color: #FDF9ED;
     }
         .balletpaper h2 {
             font-family: "Times New Roman", Garamond, sans-serif;
@@ -190,3 +191,33 @@ header {
             font-size: 20px;
             font-family: "Times New Roman", Garamond, sans-serif;
         }
+.cw-grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px;
+    margin: 0px 100px -50px;
+    justify-content: center;
+    background-color: #FDF9ED;
+}
+    .eve h2, .rain h2 {
+        font-family: "Times New Roman", Garamond, sans-serif;
+        text-align: center;
+        font-size: 25px;
+    }
+    .eve {
+        font-family: "Times New Roman", Garamond, sans-serif;
+        grid-column: 2/4;
+        text-indent: 25px;
+        text-align: center;
+    }
+    .eveimg {
+        width: 700px;
+    }
+    .rain {
+        font-family: "Times New Roman", Garamond, sans-serif;
+        grid-column: 2/4;
+        text-align: center;
+    }
+    .rainimg {
+        width: 80%;
+    
+    }
